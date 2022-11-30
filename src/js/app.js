@@ -5,7 +5,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   const hot= document.querySelectorAll(".hot")
 
-  hot[0].innerHTML += "🔥"
+ 
+  hot.forEach(element => element.innerHTML += "🔥")
   
 
   
